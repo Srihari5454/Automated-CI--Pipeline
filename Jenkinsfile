@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/Thanusha2002/Automated-CI-Pipeline.gi'
+                git branch: 'main', url: 'https://github.com/Srihari5454/Automated-CI--Pipeline.git'
             }
         }
 
